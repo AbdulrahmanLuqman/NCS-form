@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ncs</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./tools/css-fafa/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style>
+<body>
+    <div class="overflow-x-hidden">
+      <div class="block">
+        <div class="flex gap-4 items-center justify-end pl-[60px] pr-[60px]">
+           <p class="text-gray-400">Follow us:</p>
+           <p class="fa fa-facebook text-white border border-2-gray bg-gray-500 p-2 rounded-[50%]"></p>
+           <p class="fa fa-twitter text-white border border-2-gray bg-gray-500 p-2 rounded-[50%]"></p>
+           <p class="fa fa-instagram text-white border border-2-gray bg-gray-500 p-2 rounded-[50%]"></p>
+           <p class="fa fa-linkedin text-white border border-2-gray bg-gray-500 p-2 rounded-[50%]"></p>
+           <p class="fa fa-youtube-square text-white border border-2-gray bg-gray-500 p-2 rounded-[50%]"></p>
+           <p class="fa fa-mail-forward text-white border border-2-gray bg-gray-500 p-2 rounded-[50%]"></p>
+        </div>
+        <header class="flex justify-between items-center bg-green-700 w-[100vw] h-[5rem] pl-[60px] pr-[60px] text-[14px] sticky top-0">
+          <div><img src="./New-Logo-1.jpg" width="110px" alt=""></div>
+          <nav class="flex gap-4">
+            <p class="text-white  hover:text-black"><a href="#home">Home</a></p>
+               <select class="border-0 outline-none bg-transparent text-white hover:text-black">
+                <option >About</option>
+               </select>
+               <select class="border-0 outline-none bg-transparent text-white hover:text-black">
+                <option >About Membership</option>
+               </select>
+               <select class="border-0 outline-none bg-transparent text-white hover:text-black">
+                <option >Events</option>
+               </select>
+               <p class="text-white  hover:text-black">Publications</p>
+               <select class="border-0 outline-none bg-transparent text-white hover:text-black">
+                <option >Members only</option>
+               </select>
+               <p class="text-white  hover:text-black">Downloads</p>
+            </nav>
+        </header>
+      </div>
+      <div class="flex justify-between pl-[60px] pr-[60px] mt-8 mb-7">
+        <p class="text-green-500">JOB OPPORTUNiTY</p>
+        <p class="text-[12px]">home/ <span class="text-green-500">JOB OPPPORTUNITY</span></p>
+      </div>
+      <div class=" pl-[60px] pr-[60px] pt-5">
+         <p class="font-bold text-[25px]">JOB OPPORTUNITY</p>
+         <div class="flex gap-5 p-[20px]">
+            <div class="flex flex-col gap-6 w-[450px]">
+                <p>JOB OPPORTUINITY:</p>
+                <p><b>Description:</b> Two weeks contact and full time IT job (System 
+                Upgrade), early March 2023 in Lagos. Ncs has been invited to 
+                send 50 names of members for this job.</p>
+                <p>Consequently, Ncs members in Lagos are invited to express interest</p>
+                <p>Kindly indicate interest not later than <b>12 noon 28th february 2023</b></p>
+                <p><b>First 50 will be selected</b></p>
+                <p>Thank you</p>
+            </div>
+            <div class="flex flex-col gap-6">
+                <div>
+                    <p class="font-bold text-[13px]"> <label for="text">Full name*</label></p>
+                    <input type="text" id="text" placeholder="Title" class="border border-gray-500 border-2 outline-none w-[100px]">
+                    <input type="text" id="text" placeholder="First" class="border border-gray-500 border-2 outline-none w-[120px]">
+                    <input type="text" id="text" placeholder="middle" class="border border-gray-500 border-2 outline-none w-[120px]">
+                    <input type="text" id="text" placeholder="Last" class="border border-gray-500 border-2 outline-none w-[120px]">
+                </div>
+                <div class="flex gap-3">
+                    <p class="flex flex-col items-start">
+                        <label for="email" class="font-bold text-[13px]">Contact Email Address* </label>
+                        <input type="email" name="email" id="email" placeholder="Enter valid email address" class="border border-gray-500 border-2 outline-none w-[200px]">
+                    </p>
+                    <p class="flex flex-col items-start">
+                        <label for="email" class="font-bold text-[13px]">Mobile Phone Number* </label>
+                        <input type="email" name="email" id="email" placeholder="Mobile number(080.....)" class="border border-gray-500 border-2 outline-none w-[180px]">
+                    </p>
+                    <p class="flex flex-col items-start">
+                        <label for="email" class="font-bold text-[13px]">Membership Number* </label>
+                        <input type="email" name="email" id="email" placeholder="Must be a five digit num" class="border border-gray-500 border-2 outline-none w-[150px]">
+                    </p>
+                </div>
+                <div class="flex flex-row justify-between gap-3">
+                    <p class="flex flex-col items-start">
+                        <label for="date" class="font-bold text-[13px]">Date Of Birth* </label>
+                        <input type="date" name="email" id="date"class="border border-gray-500 border-2 outline-none w-[200px]">
+                    </p>
+                    <p class="flex flex-col items-start">
+                        <label for="state" class="font-bold text-[13px]">State of origin* </label>
+                        <selec id="state">
+                            <option value="select" class="border border-gray-500 border-2 outline-none w-[200px]"> Select</option>
+                        </select>
+                    </p>
+                </div>
+               <div>
+                <p class="font-bold">Interest Area(s) (Specialisation)</p>
+                <div class="flex justify-between">
+                   <div class="space-y-4 text-[14px]" >
+                    <input type="checkbox">Software Development  <br>
+                    <input type="checkbox">Networking and Security <br>
+                    <input type="checkbox">Database Management<br>
+                    <input type="checkbox">Telecommunication <br>
+                    <input type="checkbox">Distributed and Mobile Systems <br>
+                    <input type="checkbox">Games Designs and Development<br>
+                    <input type="checkbox">Information Security <br>
+                   </div>
+                   <div  class="space-y-4  text-[14px]">
+                    <input type="checkbox">Interactive Media <br>
+                    <input type="checkbox">Management Information System <br>
+                    <input type="checkbox">Mobile/Internet and Web Application Development <br>
+                    <input type="checkbox">Networking and Security <br>
+                    <input type="checkbox">OEM <br>
+                    <input type="checkbox">Research and Development<br>
+                    <input type="checkbox">Software Engineering<br>
+                   </div>
+                </div>
+               </div>
+               <div class="flex flex-col gap-2">
+                <label for="contact" class="font-bold">Contact Us*</label>
+                <input type="text" placeholder="Address Line 1" class="border border-gray-500 border-1">
+                <input type="text" placeholder="Address Line 2" class="border border-gray-500 border-1">
+                <div class="flex justify-between">
+                    <input type="text" placeholder="City" class="border border-gray-500 border-1 w-[45%]">
+                    <input type="text" placeholder="State/Province/Region" class="border border-gray-500 w-[45%] border-1">
+                </div>
+  
+               </div>
+               <div class="border border-green-700 border-1 bg-green-700 w-fit h-fit px-[15px] py-[5px] rounded-[4px] text-white font-bold">Submit</div>
+            </div>
+         </div>
+         <div class="w-fit px-[100px] py-[10px] mt-[90px]">previous post</div>
+         <div class="flex justify-between items-center px-[5px] py-[20px]">
+            <div class="font-semibold text-[20px]">Share</div>
+            <div class="flex gap-4 items-center ">
+                <p class="fa fa-facebook text-white border border-2-black bg-black p-2 rounded-[50%]"></p>
+                <p class="fa fa-twitter text-white border  border-2-black bg-black p-2 rounded-[50%]"></p>
+                <p class="fa fa-google text-white border  border-2-black bg-black p-2 rounded-[50%]"></p>
+                <p class="fa fa-linkedin text-white border  border-2-black bg-black p-2 rounded-[50%]"></p>
+                <p class="fa fa-mail-forward text-white border border-2-black bg-black p-2 rounded-[50%]"></p>
+             </div>
+         </div>
+      </div>
+      <footer class="bg-green-700 px-[89px] pt-[89px] mt-[25px]">
+       <div class="flex gap-[15px] justify-end pb-[69px]">
+        <div class="text-white">
+            <p>National Secretariat (Head Quarters):</p>
+            <p>Plot 10, Otunba Jobi Fele Way</p>
+            <p>Central Business District</p>
+            <p>(Behind MKO Abiola Garden)</p>
+            <p>Alausa, Ikeja</p>
+            <p>Lagos State, Nigeria</p>
+        </div>
+        <div class="space-y-2">
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-file"></p><p>About NCS</p></div>
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-book"></p><p>About Membership</p></div>
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-calendar"></p><p>Events</p></div>
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-user"></p><p>Join Us</p></div>
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-phone"></p><p>Contact Us</p></div>
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-facebook"></p><p>Facebook</p></div>
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-twitter"></p><p>Twitter</p></div>
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-youtube-square"></p><p>Youtube</p></div>
+            <div class="flex gap-[15px] text-white items-center"><p class="fa fa-instagram"></p><p>Instagram</p></div>
+
+        </div>
+       </div>
+       <div class="flex text-white justify-between mt-[20px] py-[15px] text-[13px]">
+          <div>Copyrght &copy; 2020 Nigeria Computer Society All Rights Reserved</div>
+          <div class="flex gap-[10px]">
+              <p>Home  /</p>
+              <p>Membership  /</p>
+              <p>Member Login  /</p>
+              <p>Careers  /</p>
+              <p>Online payments</p>
+          </div>
+       </div>
+       
+      </footer>
+      <div class=""><a href="#" id="home" class="fa fa-caret-up fa-2x fixed bottom-9 right-5 text-white border border-black border-2 w-fit px-4 py-3 bg-black"></a></div>
+    </div>
+</body>
+</html>
